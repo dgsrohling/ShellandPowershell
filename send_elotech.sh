@@ -7,7 +7,7 @@ verde='\033[0;32m'
 vermelho='\033[0;31m'
 NC='\033[0m'
 
-# SCRIPT PARA ENVIAR ATALHOS
+# ENVIAR LINKS SEPARADOS POR OPÇÕES!
 
 case "$1" in
 
@@ -26,6 +26,8 @@ case "$1" in
 -s) $powershell Copy-Item -Path .pmm/elotech/Sistemas_Elotech.lnk -Destination '\\'$2'\c$\Users\Public\Desktop\Sistemas_Elotech.lnk'
     echo -e "[OK] ENVIADO ATALHO DO ${amarelo}SISTEMAS ELOTECH${NC} PARA A DESKTOP DO HOST: ${verde}$2${NC}!"
 ;;
+
+# ENVIAR TODOS OS LINKS.
 
 -all)
 
