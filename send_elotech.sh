@@ -1,7 +1,8 @@
 #!/bin/bash
 
-powershell='/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe'
+#No WSL vi como necessário apontar o executável do PowerShell para executar as funções dele dentro do terminal Linux.
 
+powershell='/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe'
 amarelo='\033[0;33m'
 verde='\033[0;32m'
 vermelho='\033[0;31m'
